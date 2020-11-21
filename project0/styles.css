@@ -1,0 +1,70 @@
+body,
+html {
+  font-size: small;
+}
+
+body {
+  font-family: arial, sans-serif;
+  color: #202124;
+}
+
+a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.87);
+  margin-right: 1.5rem;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: rgba(0, 0, 0, 0.77);
+}
+
+main {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+nav {
+  float: right;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+  outline: none;
+}
+
+.search-bar {
+  display: block;
+  width: 30.25rem;
+  height: 2.875rem;
+  border-radius: 4.75rem;
+  border: 1px solid #dfe1e5;
+  font-size: 16px;
+  padding: 0.5rem 1rem 0.5rem 1em;
+}
+
+.search-bar:hover {
+  box-shadow: 0 1px 6px rgba(32, 33, 36, 0.28);
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+}
+.submit-btn {
+  width: 127px;
+  height: 36px;
+  margin: 11px 4px;
+  padding: 0 16px;
+  text-align: center;
+  font-size: 14px;
+  color: #3c4043;
+  background-color: #f8f9fa;
+  border: 1px solid #f8f9fa;
+  border-radius: 4px;
+}
+
